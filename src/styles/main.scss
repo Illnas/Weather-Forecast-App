@@ -1,0 +1,34 @@
+@use "search";
+@use "threeDays";
+@use "weatherMain";
+@use "weatherInfo";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Font family is Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+
+
+/* Color Scheme 19 */
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  background-color: #eae7dc;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+}
