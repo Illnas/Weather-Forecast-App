@@ -26,7 +26,7 @@ const Current = ({
       {spinnerState && <img src={Spinner} alt="Spinner" className="spinner" />}
       {forecast && (
         <img
-          src={`/Multimedia/images/${forecast.day.condition.code}.jpg`}
+          src={`%PUBLIC_URL%/Multimedia/images/${forecast.day.condition.code}.jpg`}
           alt="Weather Condition"
         />
       )}
