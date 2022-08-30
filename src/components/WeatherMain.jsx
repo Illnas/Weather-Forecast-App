@@ -6,7 +6,6 @@ import WeatherInfo from "./WeatherInfo";
 const WeatherMain = ({ data, spinnerState, forecast }) => {
   const [focusState, setFocusState] = useState([true, false, false]);
 
-  console.log(focusState);
   return (
     <div className="image-container">
       {data && (
